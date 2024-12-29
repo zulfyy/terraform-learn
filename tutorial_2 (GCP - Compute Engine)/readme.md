@@ -1,11 +1,11 @@
+Note: ```terraform.tfstate``` is Credential and need to be excluded when push to github (it include sensitive data)!
+
 In this lesson i'm using provider GCP (Google Cloud Platform) to running Terraform infrastructure on these 5 course. 
 
 I upload the neccessary file, for autogenerate file you can do ```terraform init``` to configure it on local machine. And do ```terraform apply``` to run the server.
-
 Before that, you need change the ```project``` ID to your GCP project that your have been created.
 
 Many lesson i learn, from creating network, instance server, variables and outputs.
-
 this course covers fundamental for Terraform. its so fun and easy cause the course is very straight forward and not much text. 
 
 after learning the basic. i realize this still 5-10% maybe to DevOps but this fundamental. in Future we can create complex infrastructur with this if have some problem to solve. 
